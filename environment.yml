@@ -1,0 +1,14 @@
+name: project-oracle
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn[standard]
