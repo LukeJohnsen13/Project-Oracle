@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 load_dotenv()
 
-coin_query = 'bitcoin'      #Currently all queries are set to bitcoin, should be parameterized later. 
+coin_query = 'bitcoin'      #Currently all queries are set to bitcoin, should be parameterized later
 
 def fetch_x_tweets(query=coin_query, limit=100):
     """
